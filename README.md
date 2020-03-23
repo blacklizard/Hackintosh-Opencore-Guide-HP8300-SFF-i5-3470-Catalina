@@ -44,6 +44,5 @@ Type|Item
 ##### Not Working
 - Netflix in Safari
 
-
-##### Credit
+### Credit
 - SSDTTime(for HPET) - https://github.com/corpnewt/SSDTTime
