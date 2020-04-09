@@ -1,8 +1,9 @@
-# Hackintosh Opencore 0.5.6 Installation Guide for HP8300 SFF i5 3470 - Catalina
+# Hackintosh Opencore 0.5.7 Installation Guide for HP8300 SFF i5 3470 - Catalina
 
 ![System Info](images/system.png)
 
 ### This guide is not intended for beginner
+### For Opencore 0.5.6 please refer to branch `oc-0.5.6`
 
 ### Hardware
 
