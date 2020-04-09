@@ -24,6 +24,10 @@ Follow Apple's instruction on how to use "createinstallmedia" command [https://s
 
 ## Opencore EFI
 
+Download [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg/releases/download/0.5.7/OpenCore-0.5.7-RELEASE.zip)\
+Download [AppleSupportPkg](https://github.com/acidanthera/AppleSupportPkg/releases/download/2.1.6/AppleSupport-2.1.6-RELEASE.zip)
+
+
 ### ACPI 
 - SSDT-PM.aml `Generate your own PM using https://github.com/Piker-Alpha/ssdtPRGen.sh` - Not needed for USB installer
 - SSDT-EC.aml
@@ -31,14 +35,14 @@ Follow Apple's instruction on how to use "createinstallmedia" command [https://s
 
 ### Driver
 - VBoxHfs.efi
-- FwRuntimeServices.efi
+- ApfsDriverLoader.efi
 - OpenRuntime.efi
 
 ### Kext
 - Lilu.kext
 - VirtualSMC.kext
 - WhateverGreen.kext
-- AppleALC.kext - Compile from source for latest version, it has fix for AppleHDA race condition
+- AppleALC.kext
 - IntelMausi.kext
 - USBPorts.kext - Use the included `USBPorts.kext`
 - SMCProcessor.kext
