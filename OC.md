@@ -18,7 +18,7 @@ Download OpenCore **RELEASE** from [here](https://github.com/acidanthera/OpenCor
 - [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases/latest)
 - [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases/latest)
 - [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases/latest)
-- USBPorts.kext - [Refer post installation](POST_INSTALL.md)
+- USBPorts.kext - Use the one included in this repo
 - SMCProcessor.kext - Included in VirtualSMC package
 - SMCSuperIO.kext - Included in VirtualSMC package
 
