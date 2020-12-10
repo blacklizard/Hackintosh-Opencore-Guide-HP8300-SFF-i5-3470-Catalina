@@ -1,21 +1,34 @@
-# Hackintosh Opencore 0.5.7 Installation Guide for HP8300 SFF i5 3470 - Catalina
+# Hackintosh Opencore 0.6.4 Installation Guide for HP8300 SFF i5 3470 - Big Sur
 
-![System Info](images/system.png)
+![System Info](images/system_big_sur.png)
 
-### This guide is not intended for beginner
-### For Opencore 0.5.6 please refer to branch `oc-0.5.6`
+### This guide is not intended for beginner, you have been warned. No support is provided unless there is a valid issue. Please read everything before starting
 
 ### Hardware
 
 Type|Item
 :----|:----
-**Storage (macOS)** | [KINGSTON A400 256GB](https://shopee.com.my/product/29242218/1103855234)
-**GPU** | [GT 710 2GB (GV-N710D3-2GL)](https://shopee.com.my/product/105136036/2721548636)
-**WiFi + Bluetooth** | [BCM943602CS](https://www.aliexpress.com/item/32847834498.html) + [PCI-E Adaptor](https://shopee.com.my/product/162227071/3405707076)
+**Storage (macOS)** | KINGSTON A400 256GB
+**GPU** | GT 710 2GB (GV-N710D3-2GL)
+**WiFi + Bluetooth** | BCM943602CS + PCI-E Adaptor
+
+### Prerequisite 
+Please understand all OpenCore configuration by reading [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf) 
+
+### Required Tools
+- [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+- [EFI-Agent](https://github.com/headkaze/EFI-Agent)
+- [Hackintool](https://github.com/headkaze/Hackintool)
 
 ### Step By Step Installation Guide
+1. [BIOS configuration](BIOS.md)
+2. [macOS installation media](INSTALLER.md)
+3. [OpenCore EFI](OC.md)
+4. [Post Installation](POST_INSTALL.md)
 
-[STEP_BY_STEP.md](STEP_BY_STEP.md)
+
+### Extras
+- [BCM943602CS WIN10 BT/WiFi Driver](https://mega.nz/file/h5ozUZCS#XVszB3yWDcyhaNxahbMWJLiEmnmGpqbuAnahyGDdv7Y)
 
 ### What's Working/What's Not
 
